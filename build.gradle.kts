@@ -1,6 +1,7 @@
 
 plugins {
     kotlin("jvm") version Versions.KOTLIN
+    kotlin("plugin.serialization") version Versions.KOTLIN
     id("io.ktor.plugin") version Versions.KTOR
 }
 
@@ -14,6 +15,7 @@ repositories {
 subprojects {
 
     apply(plugin = "org.jetbrains.kotlin.jvm")
+    apply(plugin = "org.jetbrains.kotlin.plugin.serialization")
     apply(plugin = "io.ktor.plugin")
 
     repositories {
@@ -21,6 +23,9 @@ subprojects {
     }
 
     dependencies {
+        if (!project.name.endsWith("common")) {
+            implementation(project(":alpha-omega-common"))
+        }
         implementation(kotlin("stdlib-jdk8"))
     }
 

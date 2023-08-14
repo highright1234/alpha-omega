@@ -19,6 +19,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/alpha-omega-commander" />
+            <option value="$PROJECT_DIR$/alpha-omega-common" />
             <option value="$PROJECT_DIR$/alpha-omega-core" />
             <option value="$PROJECT_DIR$/alpha-omega-plugin" />
             <option value="$PROJECT_DIR$/buildSrc" />

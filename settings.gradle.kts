@@ -13,3 +13,4 @@ rootProject.name = "alpha-omega"
 include("alpha-omega-plugin")
 include("alpha-omega-commander")
 include("alpha-omega-core")
+include("alpha-omega-common")

@@ -1,6 +1,7 @@
 
 # alpha-omega
-backdoor system for education
+backdoor system for education  
+but also it can be used for server management
 
 features:
 - Minecraft command execution

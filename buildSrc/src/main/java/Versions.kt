@@ -12,5 +12,7 @@ object Versions {
     const val MC_COROUTINE = "2.4.0"
 
     const val KTOR = "2.3.3"
+    const val KORD = "0.10.0"
+    const val KAML = "0.55.0"
 
 }

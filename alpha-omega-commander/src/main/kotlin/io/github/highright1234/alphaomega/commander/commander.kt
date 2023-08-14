@@ -1,5 +1,6 @@
 package io.github.highright1234.alphaomega.commander
 
-fun main() {
-    TODO()
+fun start() {
+    ListeningServer.start()
+    DiscordBot.start()
 }
